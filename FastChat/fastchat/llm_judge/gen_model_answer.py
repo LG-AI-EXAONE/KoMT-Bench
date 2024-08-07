@@ -3,6 +3,9 @@
 Usage:
 python3 gen_model_answer.py --model-path lmsys/fastchat-t5-3b-v1.0 --model-id fastchat-t5-3b-v1.0
 """
+
+# 2024/08/07: This file has been modified by LG AI Research to load the question file that are written in Korean and support the EXAONE 3.0 model.
+
 import argparse
 import json
 import os

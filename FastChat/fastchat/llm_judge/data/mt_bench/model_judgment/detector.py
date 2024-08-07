@@ -1,3 +1,5 @@
+# 2024/08/07: This file has been added by LG AI Research to support the language detection.
+
 import argparse
 from mediapipe.tasks import python
 from mediapipe.tasks.python import text

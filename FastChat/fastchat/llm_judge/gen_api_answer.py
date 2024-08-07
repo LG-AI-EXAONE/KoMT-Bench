@@ -3,6 +3,9 @@
 Usage:
 python3 gen_api_answer.py --model gpt-3.5-turbo
 """
+
+# 2024/08/07: This file has been modified by LG AI Research to load the question file written in Korean.
+
 import argparse
 import json
 import os

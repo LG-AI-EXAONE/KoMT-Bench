@@ -2,6 +2,9 @@
 Usage:
 python gen_judgment.py --model-list [LIST-OF-MODEL-ID] --parallel [num-concurrent-api-call] --mode [single|pairwise-baseline|pairwise-all]
 """
+
+# 2024/08/07: This file has been modified by LG AI Research to load the question file and the reference file that are written in Korean.
+
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 import json

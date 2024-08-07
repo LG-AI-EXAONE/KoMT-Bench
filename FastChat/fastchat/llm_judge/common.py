@@ -2,6 +2,8 @@
 Common data structures and utilities.
 """
 
+# 2024/08/07: This file has been modified by LG AI Research to ensure that text results written in Korean are saved correctly.
+
 import ast
 import dataclasses
 import glob

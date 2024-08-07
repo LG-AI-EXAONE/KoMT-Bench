@@ -1,5 +1,7 @@
 """Model adapter registration."""
 
+# 2024/08/07: This file has been modified by LG AI Research to add a model adapter class for EXAONE 3.0 language model.
+
 import math
 import os
 import re

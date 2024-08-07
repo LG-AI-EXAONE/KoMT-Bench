@@ -5,6 +5,8 @@ We kindly request that you import fastchat instead of copying this file if you w
 If you have any changes in mind, please contribute back so the community can benefit collectively and continue to maintain these valuable templates.
 """
 
+# 2024/08/07: This file has been modified by LG AI Research to implement the conversation template for EXAONE 3.0 language model.
+
 import base64
 import dataclasses
 from enum import auto, IntEnum
