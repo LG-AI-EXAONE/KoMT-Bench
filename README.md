@@ -69,7 +69,7 @@ All source code in this repository is based on [LMSYS’s FastChat repository](h
 ## Setting & Installation
 
 ```bash
-git clone https://github.com/lgai-exaone/komt-bench-dev-2
+git clone https://github.com/LG-AI-EXAONE/KoMT-Bench
 cd FastChat
 bash setting.sh
 export OPENAI_API_KEY=<openai key>
