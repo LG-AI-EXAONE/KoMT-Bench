@@ -172,3 +172,11 @@ Please cite the following paper if you find the code or datasets helpful.
       primaryClass={cs.CL}
 }
 ```
+
+## KoMT Bench
+KoMT Bench is an in-house dataset created by translating MT Bench dataset into Korean and modifying the content to reflect the characteristics and cultural nuances of the Korean language. The categories and number of questions are identical to those of the original MT-Bench dataset. After the initial translation and modification, we requested expert linguists to conduct a thorough review of our dataset.
+
+To be specific, three files are added to support our KoMT-Bench, translated and modified from the original MT-Bench.
+- `./data/judge_prompts_ko.jsonl`
+- `./data/mt_bench/question_ko.jsonl`
+- `./data/mt_bench/reference_answer_ko/gpt-4.jsonl`
