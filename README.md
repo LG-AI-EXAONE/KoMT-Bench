@@ -1,12 +1,12 @@
 # KoMT-Bench
 
-| 🤗 [**HuggingFace**](https://huggingface.co/datasets/LGAI-EXAONE/KoMT-Bench) | 📑 [**EXAONE 3.0 7.8B Tech Report**](https://www.lgresearch.ai/data/upload/tech_report/en/EXAONE_3.0_Technical_Report.pdf) |
+| 🤗 [**HuggingFace**](https://huggingface.co/datasets/LGAI-EXAONE/KoMT-Bench) | 📑 [**EXAONE 3.0 7.8B Tech Report**](https://arxiv.org/abs/2408.03541) |
 
 <br>
 
 ## Introduction
 
-This is an official repository for **KoMT Bench** built by LG AI Research, used to evaluate Korean instruction-following capability of language models, as described in the “[EXAONE 3.0 7.8B Instruction-Tuned Language Model](https://www.lgresearch.ai/data/upload/tech_report/en/EXAONE_3.0_Technical_Report.pdf)” (Technical Report). KoMT Bench is developed by translating [MT-Bench](https://arxiv.org/abs/2306.05685) [1] dataset into Korean and modifying some questions to reflect the characteristics and cultural nuances of the Korean language. 
+This is an official repository for **KoMT Bench** built by LG AI Research, used to evaluate Korean instruction-following capability of language models, as described in the “[EXAONE 3.0 7.8B Instruction-Tuned Language Model](https://arxiv.org/abs/2408.03541)” (Technical Report). KoMT Bench is developed by translating [MT-Bench](https://arxiv.org/abs/2306.05685) [1] dataset into Korean and modifying some questions to reflect the characteristics and cultural nuances of the Korean language. 
 
 All source code in this repository is based on [LMSYS’s FastChat repository](https://github.com/lm-sys/FastChat), and we have adapted it to implement EXAONE 3.0 7.8B model.
 
@@ -136,7 +136,7 @@ python show_result.py --mode single --input-file <file_path>
 
 ## Results
 
-Here are the evaluation results of various language models including the EXAONE 3.0 7.8B instruction-tuned model on KoMT-Bench. Please refer to [EXAONE 3.0 technical report](https://www.lgresearch.ai/data/upload/tech_report/en/EXAONE_3.0_Technical_Report.pdf) for details.
+Here are the evaluation results of various language models including the EXAONE 3.0 7.8B instruction-tuned model on KoMT-Bench. Please refer to [EXAONE 3.0 technical report](https://arxiv.org/abs/2408.03541) for details.
 
 | | EXAONE 3.0 7.8B Inst. | Llama 3.1 8B Inst. | Gemma 2 9B Inst. | QWEN 2 7B Inst. | Phi 3 7B Inst. | Mistral 7B Inst. |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
